@@ -364,3 +364,38 @@ p {
   margin-top: 8px;
   background-color: var(--color-light-grey);
 }
+
+/* school */
+#school {
+  background-color: var(--color-light-white);
+}
+
+.schools {
+  margin: 40px;
+}
+.school {
+  display: flex;
+  margin: 32px 0;
+}
+.school__logo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50;
+}
+.school__logo:nth-child(odd) {
+  margin-right: 40px;
+}
+.school__logo:nth-child(even) {
+  margin-left: 40px;
+}
+.school__learn {
+  padding: 18px;
+  background-color: var(--color-white);
+  border-radius: var(--size-border-radius);
+}
+.school__learn p {
+  color: var(--color-light-grey);
+}
+.school__learn a {
+  color: var(--color-pink);
+}
